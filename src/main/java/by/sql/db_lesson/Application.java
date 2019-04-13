@@ -7,11 +7,8 @@ import by.sql.entityes.Contact;
 import by.sql.entityes.Note;
 import by.sql.sqlconnector.JDBCConnector;
 
-/**
- * Hello world!
- *
- */
-public class App 
+
+public class Application 
 {
     public static void main( String[] args )
     {
