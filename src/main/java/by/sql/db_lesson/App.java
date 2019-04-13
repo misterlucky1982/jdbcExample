@@ -18,6 +18,7 @@ public class App
         JDBCConnector jdbc = new JDBCConnector();
         List<Note>list = jdbc.getNotesList();
         Iterator<Note> it = list.iterator();
+        
         while(it.hasNext())System.out.println(it.next().getName());
         jdbc.close();
     }
